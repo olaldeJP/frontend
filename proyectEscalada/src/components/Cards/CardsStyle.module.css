@@ -1,0 +1,48 @@
+.divBack {
+    background-color: black;
+}
+
+
+.card {
+    width: 290px;
+    height: 500px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+
+.card2 {
+    width: 240px;
+    height: 500px;
+    background-color: #00000046;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    transition: all .5s ease;
+}
+
+.textStyle {
+    color: rgba(253, 253, 253, 0.671);
+}
+
+.card2:hover {
+    transform: scale(1.02);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 1px rgba(3, 99, 8, 0.438);
+}
+
+.card2:hover .imgCard {
+    transition: all .5s ease;
+    border-radius: 20px;
+
+}
+
+.imgCard {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+.card2:hover .imgCard {
+    filter: grayscale(0);
+}
