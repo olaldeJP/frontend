@@ -6,10 +6,10 @@ function Form() {
                 <form className={`${FormularioStyle.form}`}>
                     <div className={`${FormularioStyle.formgroup}`}>
                         <label htmlFor="email">Email: </label><br></br>
-                        <input required name="email" id="email" type="text" />
+                        <input required name="email" id="email" type="text" className={`${FormularioStyle.inputStyle}`} />
                     </div>
                     <div className={`${FormularioStyle.formgroup}`}>
-                        <label htmlFor="textarea">Escribinos y nos pondremos en cotacto a la brevedad</label>
+                        <label htmlFor="textarea">Escribinos y nos pondremos en contacto a la brevedad! </label>
                         <textarea required cols={50} rows={10} id="textarea" name="textarea"></textarea>
                     </div>
                     <button type="submit" className={`${FormularioStyle.formsubmitbtn}`}>Enviar</button>
