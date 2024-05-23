@@ -3,7 +3,7 @@ function Form() {
     return (
         <div id="formContact" className={` d-flex justify-content-center flex-column align-items-center ${FormularioStyle.paddTop}  ${FormularioStyle.blackCont}`}>
             <div className={` ${FormularioStyle.formcontainer}  ${FormularioStyle.blackCont}`}>
-                <form className={`${FormularioStyle.form}`}>
+                <form className={`${FormularioStyle.form}`} action="https://formspree.io/f/mlekqneq" method="POST">
                     <div className={`${FormularioStyle.formgroup}`}>
                         <label htmlFor="email">Email: </label><br></br>
                         <input required name="email" id="email" type="text" className={`${FormularioStyle.inputStyle}`} />
