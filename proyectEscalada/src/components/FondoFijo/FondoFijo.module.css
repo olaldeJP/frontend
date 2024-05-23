@@ -1,15 +1,17 @@
 .sectionImagen {
     background-image: url('../../../public/images/F_3.jpg');
     height: 600px;
-    background-attachment: fixed;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .sectionImagen {
         background-image: url('../../../public/images/F_Movil.jpg');
-        height: 338;
+        background-size: 100% 100%;
+        height: 337px;
+
     }
 }
