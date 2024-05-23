@@ -11,16 +11,16 @@ function NavBar() {
             <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <li className="nav-item p-2 active">
-                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefOne}`} href="#">Proyect Escalada</a>
+                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefOne}`} href="">Proyect Escalada</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefTwo}`} href="#">Conocenos</a>
+                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefTwo}`} href="#bienvenido">Conocenos</a>
                     </li>
                     <li className="nav-item p-2">
                         <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefThree}`} href="#">Galeria</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefFour}`} href="#">Contactanos</a>
+                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefFour}`} href="#formContact">Contactanos</a>
                     </li>
                 </div>
             </div>
