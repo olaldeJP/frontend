@@ -5,7 +5,7 @@ function NavBar() {
         <nav className={["navbar navbar-expand-lg bg-body-tertiary fixed-top", navBarStyles.navBarStyle].join(" ")}>
             <a className="navbar-brand" href="#">
                 <img src="images/logo.jpg" alt="logoNavBar" width="120" height="120"></img></a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler p-3 m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
