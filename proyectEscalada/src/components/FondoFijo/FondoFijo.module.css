@@ -6,3 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media only screen and (max-width: 720px) {
+    .sectionImagen {
+        background-image: url('../../../public/images/F_Movil.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
