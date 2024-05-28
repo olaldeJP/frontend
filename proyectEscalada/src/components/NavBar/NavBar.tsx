@@ -17,7 +17,7 @@ function NavBar() {
                         <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefTwo}`} href="#bienvenido">Conocenos</a>
                     </li>
                     <li className="nav-item p-2">
-                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefThree}`} href="#">Galeria</a>
+                        <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefThree}`} href="#galeria">Galeria</a>
                     </li>
                     <li className="nav-item p-2">
                         <a className={`nav-link m-3 p-2 ${navBarStyles.linkItemNav} ${navBarStyles.hrefFour}`} href="#formContact">Contactanos</a>

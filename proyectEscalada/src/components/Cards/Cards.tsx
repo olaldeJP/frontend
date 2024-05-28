@@ -1,7 +1,7 @@
 import cardsStyle from "./CardsStyle.module.css"
 
 function Cards() {
-    return <div className={`d-flex flex-column flex-lg-row justify-content-center pt-2 ${cardsStyle.divBack}`}>
+    return <div id="galeria" className={`d-flex flex-column flex-lg-row justify-content-center pt-2 ${cardsStyle.divBack}`}>
         <div className={`${cardsStyle.card} m-4 `}>
             <div className={`${cardsStyle.card2} card`} style={{ width: '18rem' }}>
                 <img src="images/imgCards3.JPG" className={` ${cardsStyle.imgCard} card-img-top`} alt="imgCards" />
