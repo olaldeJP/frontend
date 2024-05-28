@@ -1,9 +1,9 @@
 .sectionImagen {
     background-image: url('../../../public/images/F_3.jpg');
     height: 600px;
-
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
