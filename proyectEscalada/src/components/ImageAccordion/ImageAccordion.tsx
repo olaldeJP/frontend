@@ -20,7 +20,7 @@ const Accordion: React.FC<Props> = ({ images }) => {
 
 
     return (
-        <div className="accordion">
+        <div className="accordion" id="galeria">
             {images.map((image, index) => (
                 <div
                     key={index}
