@@ -9,7 +9,7 @@
 
 @media (max-width: 600px) {
     .sectionImagen {
-        background-image: url('../../../public/images/fondo_Celular.jpg');
+
         background-size: 100% 60%;
         height: 450px;
 
