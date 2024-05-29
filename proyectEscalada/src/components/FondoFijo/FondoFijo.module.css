@@ -9,9 +9,9 @@
 
 @media (max-width: 600px) {
     .sectionImagen {
-        background-image: url('../../../public/images/F_Movil.jpg');
+        background-image: url('../../../public/images/fondo_celular.jpg');
         background-size: 100% 60%;
-        height: 400px;
+        height: 450px;
 
     }
 }
