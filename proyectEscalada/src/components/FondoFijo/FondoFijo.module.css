@@ -10,8 +10,8 @@
 @media (max-width: 600px) {
     .sectionImagen {
         background-image: url('../../../public/images/F_Movil.jpg');
-        background-size: 100% 70%;
-        height: 337px;
+        background-size: 100% 60%;
+        height: 400px;
 
     }
 }
