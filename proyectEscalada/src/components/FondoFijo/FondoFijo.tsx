@@ -1,5 +1,5 @@
 import fondoStyle from './FondoFijo.module.css'
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 function sectionBackImg() {
     const [loaded, setLoaded] = useState(false);
 
