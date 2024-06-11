@@ -6,7 +6,7 @@ function sectionBackImg() {
 
     useEffect(() => {
         const img = new Image();
-        img.src = '../../../public/images/F_3.jpg'; // Cambia esto por la ruta de tu imagen de alta calidad
+        img.src = '../../../public/images/F_Cel.jpg'; // Cambia esto por la ruta de tu imagen de alta calidad
         img.onload = () => setLoaded(true);
         img.onerror = () => console.error('Error loading high-quality image');
     }, []);
@@ -22,7 +22,7 @@ function sectionBackImg() {
         >
             {!loaded && (
                 <div className={fondoStyle.placeholder}>
-                    <div className={fondoStyle.spinner}>Cargando...</div>
+                    <div className={fondoStyle.spinner}></div>
                 </div>
             )}
         </div>
