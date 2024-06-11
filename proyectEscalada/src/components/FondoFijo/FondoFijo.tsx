@@ -6,7 +6,7 @@ function sectionBackImg() {
 
     useEffect(() => {
         const img = new Image();
-        img.src = '../../../public/images/F_Cel.jpg'; // Cambia esto por la ruta de tu imagen de alta calidad
+        img.src = '../../../public/images/F_Cel.jpg';
         img.onload = () => setLoaded(true);
         img.onerror = () => console.error('Error loading high-quality image');
     }, []);
@@ -16,8 +16,8 @@ function sectionBackImg() {
             className={fondoStyle.sectionImagen}
             style={{
                 backgroundImage: loaded
-                    ? 'url(../../../public/images/F_3.jpg)'  // Cambia esto por la ruta de tu imagen de alta calidad
-                    : 'url(../../../public/images/F_Cel.jpg)'  // Cambia esto por la ruta de tu imagen de baja calidad
+                    ? 'url(../../../public/images/F_3.jpg)'
+                    : 'url(../../../public/images/F_Cel.jpg)'
             }}
         >
             {!loaded && (
