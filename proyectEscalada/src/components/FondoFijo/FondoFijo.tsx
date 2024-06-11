@@ -6,7 +6,7 @@ function sectionBackImg() {
 
     useEffect(() => {
         const img = new Image();
-        img.src = './images/F_Cel.jpg';
+        img.src = '../../../dist/images/F_Cel.jpg';
         img.onload = () => setLoaded(true);
     }, []);
 
