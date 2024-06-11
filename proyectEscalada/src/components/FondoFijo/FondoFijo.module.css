@@ -1,16 +1,18 @@
 .sectionImagen {
     background-image: url('/images/F_Cel.jpg');
-    height: 600px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 @media (max-width: 700px) {
     .sectionImagen {
         background-size: 100% 70%;
     }
+
 }
 
 

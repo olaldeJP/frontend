@@ -11,7 +11,7 @@ function sectionBackImg() {
     }, []);
 
     return (
-        <div className={`${fondoStyle.sectionImagen} ${loaded ? fondoStyle.placeholder : fondoStyle.loading}`}>
+        <div className={`${fondoStyle.sectionImagen} ${loaded ? fondoStyle.sectionImagen : fondoStyle.loading}`}>
             {!loaded && (
                 <div className={fondoStyle.placeholder}>
                     <div className={fondoStyle.spinner}></div>
