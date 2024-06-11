@@ -5,15 +5,19 @@ function sectionBackImg() {
 
     useEffect(() => {
         const img = new Image();
-        img.src = '../../../public/images/F_3.jpg';
+        img.src = 'ruta/a/tu/imagen-de-alta-calidad.jpg'; // Cambia esto por la ruta de tu imagen de alta calidad
         img.onload = () => setLoaded(true);
     }, []);
 
     return (
-        <div className={`${fondoStyle.sectionImagen} ${loaded ? fondoStyle.loaded : fondoStyle.loading}`}>
+        <div className={fondoStyle.sectionImagen} style={{
+            backgroundImage: loaded
+                ? 'url(../../../public/images/F_3.jpg)'  // Cambia esto por la ruta de tu imagen de alta calidad
+                : 'url(../../../public/images/F_Cel.jpg)'  // Cambia esto por la ruta de tu imagen de baja calidad
+        }}>
             {!loaded && (
                 <div className={fondoStyle.placeholder}>
-                    <div className={fondoStyle.spinner}></div>
+                    <div className={fondoStyle.spinner}>Cargando...</div>
                 </div>
             )}
         </div>
